@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAP SME X4 UI Designer</title>
+    <script src="view/DesignTime/shared-config.js"></script>
+    <script
+      id="sap-ui-bootstrap"
+      src="../ui5/1.65.1/resources/sap-ui-core.js"
+      data-sap-ui-libs="sap.ui.dt,sap.m,sap.ui.layout"
+      data-sap-ui-resourceroots='{
+      "com.sap.sme.x4.uidesigner": "./",
+      "dt": "view/DesignTime/"
+		}'
+      data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
+      data-sap-ui-compatVersion="edge"
+      data-sap-ui-async="true"
+    ></script>
+  </head>
+  <body class="sapUiBody" id="content">
+    <div
+      data-sap-ui-component
+      data-name="com.sap.sme.x4.uidesigner"
+      data-id="container"
+      data-settings='{"id" : "uidesigner"}'
+    ></div>
+  </body>
+</html>
