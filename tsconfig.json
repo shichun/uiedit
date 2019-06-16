@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "outDir":"dist",
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "esModuleInterop":true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts",
+        "!./public/app/node_modules/**/*.ts"
+    ],
+    "include": [
+        "src/**/*.ts"
+      ]
+    // "files": [
+    //     "src/app.ts"]
+        // "src/routes/index.ts",
+        // "./routes/users.ts",
+        // "./server.ts",
+        // "./typings/express/express.d.ts",
+        // "./typings/node-0.10.d.ts",
+        // "./typings/tsd.d.ts"
+}

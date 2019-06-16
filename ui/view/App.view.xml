@@ -1,0 +1,21 @@
+<mvc:View controllerName="com.sap.sme.x4.uidesigner.view.App" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:core="sap.ui.core">
+	<!-- <App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+                    <Button text="demo"></Button>
+                </content>
+			</Page>
+		</pages>
+	</App> -->
+    <HBox>
+        <VBox width="30%" class="leftContainer" >
+            <Label text="outline is here"></Label>
+        </VBox>
+
+        <HBox width="70%">
+            <core:Fragment fragmentName="com.sap.sme.x4.uidesigner.view.fragment.UXView" type="XML" />
+        </HBox>
+    </HBox>
+</mvc:View>
