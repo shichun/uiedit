@@ -52,11 +52,15 @@
 		</headerContent>
 
 		<sections>
-			<ObjectPageSection id="goalsSection" title="2014 Goals Plan">
+			<ObjectPageSection  title="2014 Goals Plan">
 				<subSections>
-					<ObjectPageSubSection id="goalsSectionSS1" title=" ">
+					<ObjectPageSubSection  title="1111">
 						<blocks>
-							<m:Button text="demo" />
+						</blocks>
+					</ObjectPageSubSection>
+					<ObjectPageSubSection   title="2222">
+						<blocks>
+                        <m:Button text="demo" />
 						</blocks>
 					</ObjectPageSubSection>
 				</subSections>
